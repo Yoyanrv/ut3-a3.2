@@ -1,0 +1,17 @@
+/* styles.css */
+
+/* Estilo para las imágenes en una tabla */
+table img {
+    border: 2px solid blue;
+  }
+  
+  /* Estilo para las imágenes en un div */
+  div img {
+    border: 2px solid green;
+  }
+  
+  /* Estilo para las imágenes en un párrafo */
+  p img {
+    border: 2px solid orange;
+  }
+  

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Actividades Alumnado - UT3 - A3.2</title>
+  <!-- Hoja de estilo externa -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Hoja de estilo interna -->
+  <style>
+    h1 {
+      color: darkgreen;
+      cursor: pointer;
+    }
+
+    h1:hover {
+      background-color: lightgreen;
+    }
+
+    label {
+      color: blue;
+    }
+
+    label.red-text {
+      color: red;
+    }
+
+    input[type="text"]:focus {
+      border: 2px solid red;
+    }
+
+    input.outline-focus:focus {
+      outline: 2px solid red;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Formulario -->
+  <form>
+    <h1>Formulario</h1>
+    <label for="campo1">Campo 1:</label>
+    <input type="text" id="campo1">
+
+    <label for="campo2" class="red-text">Campo 2:</label>
+    <input type="text" id="campo2" class="outline-focus">
+
+    <label for="campo3">Campo 3:</label>
+    <input type="text" id="campo3">
+
+    <label for="campo4">Campo 4:</label>
+    <input type="text" id="campo4">
+
+    <label for="campo5">Campo 5:</label>
+    <input type="text" id="campo5">
+  </form>
+
+  <!-- Código para comprobar el color del borde de las imágenes -->
+  <table>
+    <tr>
+      <td><img src="image1.jpg" alt="Imagen 1"></td>
+      <td><img src="image2.jpg" alt="Imagen 2"></td>
+    </tr>
+  </table>
+
+  <div>
+    <img src="image3.jpg" alt="Imagen 3">
+  </div>
+
+  <p>
+    <img src="image4.jpg" alt="Imagen 4">
+  </p>
+
+</body>
+</html>
